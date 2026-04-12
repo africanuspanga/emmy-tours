@@ -23,9 +23,34 @@ export default function Hero() {
 
   useEffect(() => {
     const video = videoRef.current;
-    if (video) {
-      video.play().catch(() => {});
+    if (!video) return;
+
+    // Ensure all autoplay attributes are set before play() — needed on some Android browsers
+    video.muted = true;
+    video.playsInline = true;
+
+    const attemptPlay = () => {
+      video.play().catch(() => {
+        // Some browsers block autoplay until user interaction; retry on first touch/click
+        const retry = () => {
+          video.play().catch(() => {});
+          document.removeEventListener("touchstart", retry);
+          document.removeEventListener("click", retry);
+        };
+        document.addEventListener("touchstart", retry, { once: true });
+        document.addEventListener("click", retry, { once: true });
+      });
+    };
+
+    if (video.readyState >= 2) {
+      attemptPlay();
+    } else {
+      video.addEventListener("loadeddata", attemptPlay, { once: true });
     }
+
+    return () => {
+      video.removeEventListener("loadeddata", attemptPlay);
+    };
   }, []);
 
   return (
@@ -46,7 +71,7 @@ export default function Hero() {
             videoLoaded ? "opacity-100" : "opacity-0"
           }`}
         >
-          <source src="/Emmy tours hero background.mp4" type="video/mp4" />
+          <source src="/hero-background.mp4" type="video/mp4" />
         </video>
 
         {/* Fallback gradient when video loads */}
