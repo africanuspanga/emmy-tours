@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "packages": "Packages",
+    "kilimanjaro": "Kilimanjaro",
+    "zanzibar": "Zanzibar",
+    "contact": "Contact",
+    "bookTour": "Book a Tour",
+    "gallery": "Gallery"
+  },
+  "home": {
+    "hero": {
+      "title": "Africa Awaits You",
+      "subtitle": "Extraordinary journeys crafted by Tanzania's finest guides",
+      "cta": "Explore Journeys",
+      "ctaSecondary": "Watch Our Story"
+    },
+    "about": {
+      "badge": "10+ Years of Safari Excellence — Arusha, Tanzania",
+      "title": "Born from a deep\nlove of Tanzania",
+      "body": "Emmy Safaris & Tours Ltd was founded by passionate Tanzanian guides who believe every traveller deserves an authentic, life-changing encounter with Africa. Over a decade, we have guided thousands of guests through the Serengeti's endless plains, down Kilimanjaro's ancient trails, and across Zanzibar's turquoise waters.",
+      "cta": "Our Full Story",
+      "stat1": "10+",
+      "stat1Label": "Years of Excellence",
+      "stat2": "2,500+",
+      "stat2Label": "Happy Travellers",
+      "stat3": "98%",
+      "stat3Label": "5-Star Reviews"
+    },
+    "whyUs": {
+      "badge": "Why Emmy Safaris",
+      "title": "Crafted for those who\nseek the extraordinary",
+      "card1Title": "Expert Local Guides",
+      "card1Body": "Born and raised in Tanzania, our guides carry generations of knowledge about wildlife, culture, and land.",
+      "card2Title": "Tailor-Made Journeys",
+      "card2Body": "Every itinerary is built around your vision — from private camps to sunrise game drives, nothing is off the table.",
+      "card3Title": "Guaranteed Safety",
+      "card3Body": "Licensed by TANAPA and the Tanzania Tourism Board, your safety and comfort are our highest priority.",
+      "card4Title": "Sustainable Travel",
+      "card4Body": "We work closely with local communities to ensure our safaris protect ecosystems and empower people."
+    },
+    "testimonials": {
+      "badge": "Guest Stories",
+      "title": "Words from those who\nhave lived the dream"
+    },
+    "recommended": {
+      "badge": "Trusted & Recognized",
+      "title": "Recommended by the world's\nleading travel platforms"
+    },
+    "cta": {
+      "title": "Your African adventure\nstarts here",
+      "body": "Let us craft an unforgettable journey tailored to your dreams. Speak with one of our expert safari consultants today.",
+      "cta": "Start Planning",
+      "ctaSecondary": "View All Packages"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "About Emmy Safaris",
+      "title": "Rooted in Tanzania,\nDriven by Passion"
+    },
+    "story": {
+      "badge": "Our Story",
+      "title": "A decade of wild,\nauthentc encounters",
+      "p1": "Emmy Safaris & Tours Ltd was born in 2014 in the heart of Arusha — Tanzania's safari capital, in the shadow of Mount Kilimanjaro. Our founder, with over a decade of guiding experience across the Northern Circuit, saw a gap: travellers wanted more than a tour. They wanted a story.",
+      "p2": "We built Emmy Safaris on a single principle: the best safari is the one that feels personal. We recruit only certified, experienced guides who speak the language of the wild — who can read lion pawprints, predict the migration, and name every bird at dawn. Today we are proud to serve guests from over 40 countries.",
+      "p3": "From the rim of Ngorongoro to the summit of Uhuru Peak, from the spice markets of Stone Town to the pristine reefs of Zanzibar, Emmy Safaris takes you deeper into Tanzania than you ever imagined possible."
+    },
+    "mission": {
+      "badge": "Mission & Vision",
+      "missionTitle": "Our Mission",
+      "missionBody": "To deliver transformative travel experiences that connect guests with Tanzania's extraordinary wildlife, landscapes, and cultures — responsibly, authentically, and with world-class service.",
+      "visionTitle": "Our Vision",
+      "visionBody": "To be East Africa's most trusted safari operator, known for expert guides, bespoke itineraries, and a genuine commitment to sustainable tourism and community empowerment."
+    },
+    "values": {
+      "badge": "Our Values",
+      "title": "The principles that guide every journey",
+      "v1Title": "Authenticity",
+      "v1Body": "Real encounters, honest advice, no manufactured moments.",
+      "v2Title": "Expertise",
+      "v2Body": "Ten years in the field, certified guides, deep local knowledge.",
+      "v3Title": "Sustainability",
+      "v3Body": "Protecting wildlife habitats and uplifting local communities.",
+      "v4Title": "Excellence",
+      "v4Body": "Every detail is considered — from vehicle to campsite to cuisine.",
+      "v5Title": "Safety",
+      "v5Body": "TANAPA-certified, fully insured, 24/7 emergency support.",
+      "v6Title": "Hospitality",
+      "v6Body": "Warm Tanzanian hospitality at every mile of your journey."
+    },
+    "stats": {
+      "s1": "10+",
+      "s1Label": "Years in Business",
+      "s2": "2,500+",
+      "s2Label": "Guests Guided",
+      "s3": "40+",
+      "s3Label": "Countries Represented",
+      "s4": "98%",
+      "s4Label": "Satisfaction Rate"
+    },
+    "cta": {
+      "title": "Ready to write your Tanzania story?",
+      "body": "Browse our curated safari packages and Kilimanjaro routes, or contact us to build something completely bespoke.",
+      "cta": "View Packages"
+    }
+  },
+  "packages": {
+    "badge": "Safari Packages",
+    "title": "Find your perfect\nTanzania safari",
+    "subtitle": "From intimate 2-day escapes to epic 10-day expeditions across the Northern Circuit",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "days": "Days",
+    "nights": "Nights",
+    "includes": "Package Includes",
+    "excludes": "Package Excludes",
+    "itinerary": "Day-by-Day Itinerary",
+    "day": "Day",
+    "backToPackages": "Back to Packages",
+    "enquire": "Enquire About This Tour"
+  },
+  "kilimanjaro": {
+    "badge": "Kilimanjaro Climbing",
+    "title": "Reach the Roof\nof Africa",
+    "subtitle": "Six spectacular routes to Uhuru Peak — guiding you safely to 5,895 metres",
+    "viewRoute": "View Route",
+    "bookClimb": "Book This Climb",
+    "duration": "Duration",
+    "difficulty": "Difficulty",
+    "type": "Type",
+    "successRate": "Success Rate",
+    "days": "Days",
+    "backToRoutes": "Back to Routes"
+  },
+  "zanzibar": {
+    "badge": "Zanzibar",
+    "title": "Paradise Found",
+    "subtitle": "Turquoise waters, pristine beaches, and the historic magic of Stone Town",
+    "comingSoon": "Full packages coming soon",
+    "cta": "Contact Us for Zanzibar"
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Let's plan your\ndream adventure",
+    "address": "AICC, Serengeti Wings, Floor 4, Room 453, Arusha, Tanzania",
+    "phone": "+255 769 683 062",
+    "whatsapp": "+255 784 305 008",
+    "email": "emmysafaris@gmail.com",
+    "formName": "Your Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone Number",
+    "formMessage": "Tell us about your dream safari",
+    "formSend": "Send Message",
+    "formSuccess": "Message sent! We'll be in touch within 24 hours.",
+    "mapTitle": "Find Us in Arusha"
+  },
+  "footer": {
+    "tagline": "10+ years crafting extraordinary Tanzania safari experiences",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "booking": {
+    "title": "Book Your Safari",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "date": "Preferred Start Date",
+    "guests": "Number of Guests",
+    "package": "Package",
+    "notes": "Special Requests",
+    "submit": "Request Booking",
+    "success": "Booking request received! We'll confirm within 24 hours.",
+    "close": "Close"
+  },
+  "gallery": {
+    "badge": "Emmy Safari Gallery",
+    "title": "Life Through\nOur Lens",
+    "subtitle": "Every photograph tells a story of Africa's wild beauty — captured on location by our guides and guests",
+    "all": "All",
+    "safari": "Safari",
+    "kilimanjaro": "Kilimanjaro",
+    "zanzibar": "Zanzibar",
+    "culture": "Culture"
+  }
+}

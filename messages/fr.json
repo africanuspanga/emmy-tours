@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "packages": "Circuits",
+    "kilimanjaro": "Kilimandjaro",
+    "zanzibar": "Zanzibar",
+    "contact": "Contact",
+    "bookTour": "Réserver un Circuit",
+    "gallery": "Galerie"
+  },
+  "home": {
+    "hero": {
+      "title": "L'Afrique Vous Attend",
+      "subtitle": "Des voyages extraordinaires créés par les meilleurs guides de Tanzanie",
+      "cta": "Explorer les Circuits",
+      "ctaSecondary": "Voir Notre Histoire"
+    },
+    "about": {
+      "badge": "10+ Ans d'Excellence Safari — Arusha, Tanzanie",
+      "title": "Née d'un profond\namour de la Tanzanie",
+      "body": "Emmy Safaris & Tours Ltd a été fondée par des guides tanzaniens passionnés qui croient que chaque voyageur mérite une rencontre authentique et transformatrice avec l'Afrique. En une décennie, nous avons guidé des milliers d'hôtes à travers les plaines infinies du Serengeti, le long des sentiers ancestraux du Kilimandjaro et sur les eaux turquoises de Zanzibar.",
+      "cta": "Notre Histoire Complète",
+      "stat1": "10+",
+      "stat1Label": "Années d'Excellence",
+      "stat2": "2 500+",
+      "stat2Label": "Voyageurs Heureux",
+      "stat3": "98%",
+      "stat3Label": "Avis 5 Étoiles"
+    },
+    "whyUs": {
+      "badge": "Pourquoi Emmy Safaris",
+      "title": "Conçu pour ceux qui\ncherchent l'extraordinaire",
+      "card1Title": "Guides Locaux Experts",
+      "card1Body": "Nés et élevés en Tanzanie, nos guides portent des générations de connaissances sur la faune, la culture et le territoire.",
+      "card2Title": "Voyages Sur Mesure",
+      "card2Body": "Chaque itinéraire est construit autour de votre vision — des camps privés aux game drives au lever du soleil.",
+      "card3Title": "Sécurité Garantie",
+      "card3Body": "Agréés par le TANAPA et le Tanzania Tourism Board, votre sécurité et votre confort sont notre priorité absolue.",
+      "card4Title": "Voyage Durable",
+      "card4Body": "Nous travaillons étroitement avec les communautés locales pour garantir que nos safaris protègent les écosystèmes."
+    },
+    "testimonials": {
+      "badge": "Témoignages",
+      "title": "Les mots de ceux qui\nont vécu le rêve"
+    },
+    "recommended": {
+      "badge": "Reconnu et Approuvé",
+      "title": "Recommandé par les principales\nplateformes de voyage mondiales"
+    },
+    "cta": {
+      "title": "Votre aventure africaine\ncommence ici",
+      "body": "Laissez-nous créer un voyage inoubliable adapté à vos rêves. Parlez dès aujourd'hui avec l'un de nos consultants safari.",
+      "cta": "Commencer à Planifier",
+      "ctaSecondary": "Voir Tous les Circuits"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "À Propos d'Emmy Safaris",
+      "title": "Enracinés en Tanzanie,\nAnimés par la Passion"
+    },
+    "story": {
+      "badge": "Notre Histoire",
+      "title": "Une décennie de rencontres\nauthentiques avec la nature",
+      "p1": "Emmy Safaris & Tours Ltd est née en 2014 au cœur d'Arusha — la capitale safari de Tanzanie, à l'ombre du Mont Kilimandjaro. Notre fondateur, fort de plus d'une décennie d'expérience de guide dans le Circuit Nord, a vu un manque : les voyageurs voulaient plus qu'un simple circuit. Ils voulaient une histoire.",
+      "p2": "Nous avons bâti Emmy Safaris sur un seul principe : le meilleur safari est celui qui semble personnel. Nous recrutons uniquement des guides certifiés et expérimentés qui parlent le langage de la nature sauvage.",
+      "p3": "Du bord du Ngorongoro au sommet du Pic Uhuru, des marchés aux épices de Stone Town aux récifs immaculés de Zanzibar, Emmy Safaris vous emmène plus profondément en Tanzanie que vous ne l'aviez imaginé."
+    },
+    "mission": {
+      "badge": "Mission et Vision",
+      "missionTitle": "Notre Mission",
+      "missionBody": "Offrir des expériences de voyage transformatrices qui connectent les hôtes à la faune extraordinaire, aux paysages et aux cultures de Tanzanie — de manière responsable, authentique et avec un service de classe mondiale.",
+      "visionTitle": "Notre Vision",
+      "visionBody": "Être l'opérateur safari le plus fiable d'Afrique de l'Est, reconnu pour ses guides experts, ses itinéraires sur mesure et son engagement sincère envers le tourisme durable."
+    },
+    "values": {
+      "badge": "Nos Valeurs",
+      "title": "Les principes qui guident chaque voyage",
+      "v1Title": "Authenticité",
+      "v1Body": "De vraies rencontres, des conseils honnêtes, pas de moments artificiels.",
+      "v2Title": "Expertise",
+      "v2Body": "Dix ans sur le terrain, guides certifiés, connaissance locale approfondie.",
+      "v3Title": "Durabilité",
+      "v3Body": "Protéger les habitats naturels et valoriser les communautés locales.",
+      "v4Title": "Excellence",
+      "v4Body": "Chaque détail est soigné — du véhicule au camp à la cuisine.",
+      "v5Title": "Sécurité",
+      "v5Body": "Certifiés TANAPA, entièrement assurés, assistance d'urgence 24h/24.",
+      "v6Title": "Hospitalité",
+      "v6Body": "La chaleureuse hospitalité tanzanienne à chaque étape de votre voyage."
+    },
+    "stats": {
+      "s1": "10+",
+      "s1Label": "Années d'Activité",
+      "s2": "2 500+",
+      "s2Label": "Hôtes Guidés",
+      "s3": "40+",
+      "s3Label": "Pays Représentés",
+      "s4": "98%",
+      "s4Label": "Taux de Satisfaction"
+    },
+    "cta": {
+      "title": "Prêt à écrire votre histoire en Tanzanie ?",
+      "body": "Parcourez nos circuits safari et itinéraires Kilimandjaro, ou contactez-nous pour créer quelque chose d'entièrement sur mesure.",
+      "cta": "Voir les Circuits"
+    }
+  },
+  "packages": {
+    "badge": "Circuits Safari",
+    "title": "Trouvez votre safari\nparfait en Tanzanie",
+    "subtitle": "De courtes escapades de 2 jours aux épopées de 10 jours sur le Circuit Nord",
+    "viewDetails": "Voir les Détails",
+    "bookNow": "Réserver",
+    "days": "Jours",
+    "nights": "Nuits",
+    "includes": "Inclus dans le Circuit",
+    "excludes": "Non Inclus",
+    "itinerary": "Itinéraire Jour par Jour",
+    "day": "Jour",
+    "backToPackages": "Retour aux Circuits",
+    "enquire": "Renseignements sur ce Circuit"
+  },
+  "kilimanjaro": {
+    "badge": "Ascension du Kilimandjaro",
+    "title": "Atteignez le Toit\nde l'Afrique",
+    "subtitle": "Six itinéraires spectaculaires vers le Pic Uhuru — vous guidant en toute sécurité à 5 895 mètres",
+    "viewRoute": "Voir l'Itinéraire",
+    "bookClimb": "Réserver cette Ascension",
+    "duration": "Durée",
+    "difficulty": "Difficulté",
+    "type": "Type",
+    "successRate": "Taux de Réussite",
+    "days": "Jours",
+    "backToRoutes": "Retour aux Itinéraires"
+  },
+  "zanzibar": {
+    "badge": "Zanzibar",
+    "title": "Le Paradis Retrouvé",
+    "subtitle": "Eaux turquoises, plages immaculées et la magie historique de Stone Town",
+    "comingSoon": "Circuits complets bientôt disponibles",
+    "cta": "Contactez-nous pour Zanzibar"
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title": "Planifions ensemble\nvotre aventure de rêve",
+    "address": "AICC, Serengeti Wings, 4ème Étage, Salle 453, Arusha, Tanzanie",
+    "phone": "+255 769 683 062",
+    "whatsapp": "+255 784 305 008",
+    "email": "emmysafaris@gmail.com",
+    "formName": "Votre Nom",
+    "formEmail": "Adresse Email",
+    "formPhone": "Numéro de Téléphone",
+    "formMessage": "Parlez-nous de votre safari de rêve",
+    "formSend": "Envoyer le Message",
+    "formSuccess": "Message envoyé ! Nous vous contacterons dans les 24 heures.",
+    "mapTitle": "Trouvez-nous à Arusha"
+  },
+  "footer": {
+    "tagline": "Plus de 10 ans d'expériences safari extraordinaires en Tanzanie",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
+  },
+  "booking": {
+    "title": "Réservez Votre Safari",
+    "name": "Nom Complet",
+    "email": "Adresse Email",
+    "phone": "Numéro de Téléphone",
+    "date": "Date de Début Souhaitée",
+    "guests": "Nombre de Voyageurs",
+    "package": "Circuit",
+    "notes": "Demandes Spéciales",
+    "submit": "Demander une Réservation",
+    "success": "Demande reçue ! Nous confirmerons dans les 24 heures.",
+    "close": "Fermer"
+  },
+  "gallery": {
+    "badge": "Galerie Emmy Safari",
+    "title": "La Vie À Travers\nNotre Objectif",
+    "subtitle": "Chaque photographie raconte une histoire de la beauté sauvage de l'Afrique",
+    "all": "Tout",
+    "safari": "Safari",
+    "kilimanjaro": "Kilimanjaro",
+    "zanzibar": "Zanzibar",
+    "culture": "Culture"
+  }
+}
