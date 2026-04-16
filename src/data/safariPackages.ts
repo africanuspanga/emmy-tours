@@ -27,6 +27,576 @@ export interface SafariPackage {
 
 export const safariPackages: SafariPackage[] = [
   {
+    id: '5-day-wildebeest-calving',
+    slug: '5-days-wildebeest-calving-safari',
+    title: '5 Days / 4 Nights – Wildebeest Calving Safari',
+    shortTitle: 'Wildebeest Calving Safari',
+    days: 5,
+    nights: 4,
+    destinations: ['Ndutu', 'Ngorongoro Crater'],
+    heroImage: '/The one wildbeast .jpg',
+    cardImage: '/The one wildbeast .jpg',
+    highlight: 'Witness the dramatic wildebeest calving season on the Ndutu plains',
+    description:
+      'Witness one of nature’s most dramatic events — the wildebeest calving season — on this 5-day safari in the Ndutu region of the Ngorongoro Conservation Area. Each year, hundreds of thousands of wildebeest give birth on the short-grass plains, attracting predators and offering unforgettable wildlife encounters. Combined with a visit to the Ngorongoro Crater, home to the Big Five, this itinerary delivers a front-row seat to the circle of life on the African savannah. Perfect for travelers with limited time who don’t want to miss this seasonal spectacle.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arusha City – Ngorongoro Crater',
+        description:
+          'Depart from Arusha and drive to the Ngorongoro Conservation Area. Enjoy stunning views over the crater rim and settle into your lodge on the rim for the night.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 1.JPG',
+      },
+      {
+        day: 2,
+        title: 'Ngorongoro Crater – Ndutu',
+        description:
+          'Descend into the Ngorongoro Crater for a half-day game drive among the Big 5. After lunch, drive to the Ndutu area to position yourself for the calving season action.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 2.JPG',
+      },
+      {
+        day: 3,
+        title: 'Ndutu Ngorongoro – Full Day Game Drive',
+        description:
+          'Spend a full day exploring the Ndutu plains during calving season. Witness hundreds of thousands of wildebeest giving birth, attracting lions, cheetahs, and hyenas.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 3.JPG',
+      },
+      {
+        day: 4,
+        title: 'Ndutu Ngorongoro – Full Day Game Drive',
+        description:
+          'Another full day immersed in the calving season. Watch predator-prey interactions unfold across the short-grass plains as zebra and wildebeest herds move in search of fresh grazing.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 4.JPG',
+      },
+      {
+        day: 5,
+        title: 'Ndutu – Arusha Airport',
+        description:
+          'Enjoy a final morning game drive in Ndutu before driving back to Arusha Airport for your onward flight.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 5.jpg',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: true,
+  },
+  {
+    id: '8-day-tanzania-migration',
+    slug: '8-days-tanzania-migration-safari',
+    title: '8 Days / 7 Nights – Tanzania Migration Safari',
+    shortTitle: 'Tanzania Migration Safari',
+    days: 8,
+    nights: 7,
+    destinations: ['Tarangire', 'Ngorongoro Crater', 'Ndutu', 'Serengeti'],
+    heroImage: '/wildbeast packages.jpg',
+    cardImage: '/wildbeast packages.jpg',
+    highlight: 'Follow the Great Migration through Tarangire, Ngorongoro, Ndutu and Serengeti',
+    description:
+      'Witness one of nature’s greatest spectacles — the Great Migration — on this unforgettable Tanzanian adventure. Over 8 days, journey through Tarangire, Ngorongoro Crater, Ndutu, and the world-famous Serengeti, where wildebeest and zebra move in breathtaking numbers across the plains. Along the way, encounter elephants, lions, buffalo, cheetahs, and more, while staying in carefully selected safari camps that place you right at the heart of the action.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Kilimanjaro International Airport – Arusha',
+        description:
+          'Arrive at Kilimanjaro International Airport. Meet your safari guide and transfer to your hotel in Arusha for overnight.',
+        accommodation: 'Octagon Lodge',
+        meals: 'Dinner',
+        image: '/itineraries images/Itinirary image 6.jpg',
+      },
+      {
+        day: 2,
+        title: 'Arusha – Tarangire National Park',
+        description:
+          'Drive to Tarangire National Park. Encounter the highest concentration of elephants in Tanzania, massive baobab trees and impressive birdlife. Overnight at Octagon Lodge.',
+        accommodation: 'Octagon Lodge',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 7.jpg',
+      },
+      {
+        day: 3,
+        title: 'Tarangire – Ngorongoro',
+        description:
+          'Morning game drive in Tarangire, then drive to the Ngorongoro Conservation Area. Overnight on the crater rim with spectacular views.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 8.jpg',
+      },
+      {
+        day: 4,
+        title: 'Ndutu Ngorongoro – Southern Serengeti',
+        description:
+          'Descend into Ngorongoro Crater for a half-day game drive, then drive to the Ndutu area in the Southern Serengeti to follow the migration.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 9.jpg',
+      },
+      {
+        day: 5,
+        title: 'Ndutu Area – Full Day Game Drive',
+        description:
+          'A full day exploring the Ndutu plains. Depending on the season, witness the calving season or the build-up of the great herds before they move north.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 11.jpg',
+      },
+      {
+        day: 6,
+        title: 'Ndutu – Central Serengeti',
+        description:
+          'Drive north into Central Serengeti with en-route game drives. Classic acacia-studded savanna and abundant big cats await.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 12.jpg',
+      },
+      {
+        day: 7,
+        title: 'Central Serengeti – Full Day Game Drive',
+        description:
+          'Full day game drive in Central Serengeti searching for lions, leopards, cheetahs, elephants and the vast herds of wildebeest.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 14.jpg',
+      },
+      {
+        day: 8,
+        title: 'Seronera Airstrip – Arusha',
+        description:
+          'Morning game drive in Serengeti, then transfer to Seronera Airstrip for your flight back to Arusha.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 15.jpg',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: true,
+  },
+  {
+    id: '6-day-tanzania-migration',
+    slug: '6-days-tanzania-migration-safari',
+    title: '6 Days / 5 Nights – Tanzania Migration Safari',
+    shortTitle: 'Great Migration Safari',
+    days: 6,
+    nights: 5,
+    destinations: ['Ngorongoro Crater', 'Ndutu', 'Serengeti'],
+    heroImage: '/the wildebeast.jpg',
+    cardImage: '/the wildebeast.jpg',
+    highlight: 'Experience the wonder of the Great Migration in six unforgettable days',
+    description:
+      'Experience the wonder of the Great Migration in just six unforgettable days. Begin your adventure at the wildlife-rich Ngorongoro Crater, then head to Ndutu — the heart of the migration — where thousands of wildebeest and zebra gather and give birth on the open plains. Continue into the legendary Serengeti, where vast herds, roaming predators, and endless horizons create a true safari spectacle.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arusha – Ngorongoro',
+        description:
+          'Depart Arusha and drive to the Ngorongoro Conservation Area. Overnight on the crater rim with panoramic views.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 1.JPG',
+      },
+      {
+        day: 2,
+        title: 'Ndutu Ngorongoro – Southern Serengeti',
+        description:
+          'Descend into Ngorongoro Crater for a game drive among the Big 5, then continue to the Ndutu area to witness the migration herds.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 2.JPG',
+      },
+      {
+        day: 3,
+        title: 'Ndutu Area – Full Day Game Drive',
+        description:
+          'Full day exploring the Ndutu plains. Watch wildebeest, zebra and the predators that follow them across the golden grasslands.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 3.JPG',
+      },
+      {
+        day: 4,
+        title: 'Ndutu – Central Serengeti',
+        description:
+          'Drive from Ndutu to Central Serengeti with game viewing en route. Arrive at your camp in the heart of big-cat territory.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 4.JPG',
+      },
+      {
+        day: 5,
+        title: 'Central Serengeti – Full Day Game Drive',
+        description:
+          'A full day in Central Serengeti. Search for lions, leopards, cheetahs and the great herds that define this iconic landscape.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 5.jpg',
+      },
+      {
+        day: 6,
+        title: 'Seronera Airstrip – Arusha',
+        description:
+          'Final morning game drive in Serengeti, then transfer to Seronera Airstrip for your flight back to Arusha.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 6.jpg',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: false,
+  },
+  {
+    id: '5-day-serengeti-great-migration',
+    slug: '5-days-serengeti-great-migration-safari',
+    title: '5 Days / 4 Nights – Serengeti Great Migration Safari',
+    shortTitle: 'Serengeti Great Migration Safari',
+    days: 5,
+    nights: 4,
+    destinations: ['Ngorongoro Crater', 'Serengeti National Park', 'North Mara'],
+    heroImage: '/wildbeast image.jpg',
+    cardImage: '/wildbeast image.jpg',
+    highlight: 'Follow the Great Migration through the iconic Serengeti plains',
+    description:
+      'Serengeti Great Migration has been listed as one of the Seven Natural Wonders of the World. Not only does it offer incredible views of the plains dotted with huge herds of wildebeest, zebra, and gazelle, but the rivers are often infested with large Nile crocodiles lying in wait. Some of the best safari opportunities in the world are found here. Visiting the right area in the right season will treat travellers to astonishing sightings of this natural phenomenon. These migratory herds also attract the attention of some of the continent’s most renowned predators.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arusha – Ngorongoro Crater',
+        description:
+          'Depart Arusha and drive to Ngorongoro Crater. Overnight on the crater rim with breathtaking views of the caldera below.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 7.jpg',
+      },
+      {
+        day: 2,
+        title: 'Ngorongoro Crater – Serengeti National Park',
+        description:
+          'Descend into Ngorongoro Crater for a half-day game drive among the Big 5. After lunch, drive into the Serengeti with en-route game viewing.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 8.jpg',
+      },
+      {
+        day: 3,
+        title: 'Serengeti National Park – North Mara',
+        description:
+          'Drive north to the Kogatende area near the Mara River. Depending on the season, witness the dramatic river crossings as wildebeest brave the crocodile-infested waters.',
+        accommodation: 'Mara KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 9.jpg',
+      },
+      {
+        day: 4,
+        title: 'Serengeti National Park – North Mara',
+        description:
+          'Another full day in Northern Serengeti. Follow the migration herds and watch for thrilling predator action along the riverbanks.',
+        accommodation: 'Mara KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 11.jpg',
+      },
+      {
+        day: 5,
+        title: 'Kogatende Airstrip – Arusha – Kilimanjaro International Airport',
+        description:
+          'Morning game drive in Northern Serengeti, then transfer to Kogatende Airstrip for your flight to Arusha and connection to Kilimanjaro International Airport.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 12.jpg',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: true,
+  },
+  {
+    id: '4-day-wildebeest-calving',
+    slug: '4-days-wildebeest-calving-safari',
+    title: '4 Days / 3 Nights – Wildebeest Calving Safari',
+    shortTitle: '4-Day Wildebeest Calving',
+    days: 4,
+    nights: 3,
+    destinations: ['Ndutu', 'Ngorongoro'],
+    heroImage: '/safari packages images/safari opackage images 2.jpg',
+    cardImage: '/safari packages images/safari opackage images 2.jpg',
+    highlight: 'Short on time? Witness the calving season in just four action-packed days',
+    description:
+      'Short on time but eager to witness one of Africa’s greatest wildlife spectacles? This 4-day safari takes you straight to the heart of the wildebeest calving season in Ndutu, where thousands of newborn calves attract big cats and dramatic predator-prey encounters. With game drives across the open plains and a visit to the Ngorongoro Crater — home to an incredible density of wildlife — this itinerary delivers an action-packed safari in just a few days.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arusha City – Ndutu',
+        description:
+          'Depart Arusha and drive directly to the Ndutu area. Afternoon game drive to witness the beginning of the calving season action.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 14.jpg',
+      },
+      {
+        day: 2,
+        title: 'Ndutu Ngorongoro – Full Day',
+        description:
+          'Full day game drive on the Ndutu plains. Watch thousands of wildebeest give birth while predators lurk nearby, creating unforgettable wildlife drama.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 15.jpg',
+      },
+      {
+        day: 3,
+        title: 'Ndutu Ngorongoro – Full Day',
+        description:
+          'Another full day immersed in the calving season. Explore the open grasslands and follow the herds as they move in search of fresh grazing.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 1.JPG',
+      },
+      {
+        day: 4,
+        title: 'Ndutu – Arusha Airport',
+        description:
+          'Enjoy a final sunrise game drive in Ndutu before driving back to Arusha Airport for your onward journey.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 2.JPG',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: false,
+  },
+  {
+    id: '5-day-wildebeest-migration-calving',
+    slug: '5-days-wildebeest-migration-calving-safari',
+    title: '5 Days / 4 Nights – Wildebeest Migration Calving Safari',
+    shortTitle: 'Wildebeest Migration Calving Safari',
+    days: 5,
+    nights: 4,
+    destinations: ['Lake Ndutu', 'Southern Serengeti', 'Central Serengeti', 'Ngorongoro Crater'],
+    heroImage: '/safari packages images/cultural tours.jpg',
+    cardImage: '/safari packages images/cultural tours.jpg',
+    highlight: 'Follow the Great Migration calving season from December to April',
+    description:
+      'The Great Wildebeest Calving Migration Safari has been designed specifically to focus on following the Great Serengeti Wildebeest migration during calving from December to April. The areas to be covered are Lake Ndutu area, as well as the Southern and Central areas of Serengeti National Park where the majority of the wildebeest are usually found. A visit to the world famous Ngorongoro Crater is part of this safari as well. Predator action is at its peak with great sightings of cheetah, lion, hyena and leopard.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arusha – Ndutu Area',
+        description:
+          'Depart Arusha and drive to the Ndutu area in the Ngorongoro Conservation Area. Afternoon game drive to witness the herds gathering on the plains.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 3.JPG',
+      },
+      {
+        day: 2,
+        title: 'Ndutu Area – Full Day Calving Season',
+        description:
+          'A full day on the Ndutu plains during calving season. Watch wildebeest give birth and predators take advantage of the vulnerable newborns.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 4.JPG',
+      },
+      {
+        day: 3,
+        title: 'Ndutu – Central Serengeti',
+        description:
+          'Drive from Ndutu into Central Serengeti with game viewing en route. Search for big cats and the vast herds that define this legendary ecosystem.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 5.jpg',
+      },
+      {
+        day: 4,
+        title: 'Central Serengeti – Ngorongoro Crater',
+        description:
+          'Morning game drive in Central Serengeti, then drive to the Ngorongoro Crater rim for overnight with stunning crater views.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 6.jpg',
+      },
+      {
+        day: 5,
+        title: 'Ngorongoro Crater – Arusha',
+        description:
+          'Descend into Ngorongoro Crater for a morning game drive among the Big 5. After lunch, drive back to Arusha.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 7.jpg',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: false,
+  },
+  {
+    id: '7-day-tanzania-migration',
+    slug: '7-days-tanzania-migration-safari',
+    title: '7 Days / 6 Nights – Tanzania Migration Safari',
+    shortTitle: '7-Day Tanzania Migration Safari',
+    days: 7,
+    nights: 6,
+    destinations: ['Tarangire', 'Ngorongoro', 'Ndutu', 'Serengeti'],
+    heroImage: '/safari packages images/rhino-ngorongoro.jpg',
+    cardImage: '/safari packages images/rhino-ngorongoro.jpg',
+    highlight: 'A front-row seat to the Great Migration in one perfect week',
+    description:
+      'Discover the magic of the Great Migration on this 7-day adventure through Tanzania’s most iconic landscapes. From the elephant-filled plains of Tarangire to the wildlife-rich Ngorongoro Crater, and onward to the Ndutu area where wildebeest give birth during the migration, every day brings unforgettable encounters. Your journey continues into the vast Serengeti, home to breathtaking wildlife action and endless savannah horizons.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arusha – Tarangire',
+        description:
+          'Depart Arusha and drive to Tarangire National Park. Famous for its elephant herds and ancient baobab trees. Overnight near the park.',
+        accommodation: 'Octagon Lodge',
+        meals: 'Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 8.jpg',
+      },
+      {
+        day: 2,
+        title: 'Tarangire – Ngorongoro',
+        description:
+          'Morning game drive in Tarangire, then drive to the Ngorongoro Conservation Area. Overnight on the crater rim.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 9.jpg',
+      },
+      {
+        day: 3,
+        title: 'Ndutu Ngorongoro – Southern Serengeti',
+        description:
+          'Descend into Ngorongoro Crater for a game drive, then continue to the Ndutu area to witness the migration herds on the short-grass plains.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 11.jpg',
+      },
+      {
+        day: 4,
+        title: 'Ndutu Area – Full Day Game Drive',
+        description:
+          'Full day exploring the Ndutu plains. Experience the calving season or the build-up of the herds, with predators never far behind.',
+        accommodation: 'Ndutu Migration Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 12.jpg',
+      },
+      {
+        day: 5,
+        title: 'Ndutu – Central Serengeti',
+        description:
+          'Drive north to Central Serengeti with en-route game drives. Classic savanna landscapes and excellent big-cat sightings await.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 14.jpg',
+      },
+      {
+        day: 6,
+        title: 'Central Serengeti – Full Day Game Drive',
+        description:
+          'A full day in Central Serengeti. Track lions, leopards, cheetahs and the massive wildebeest herds across the endless plains.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 15.jpg',
+      },
+      {
+        day: 7,
+        title: 'Seronera Airstrip – Arusha',
+        description:
+          'Final morning game drive, then transfer to Seronera Airstrip for your flight back to Arusha.',
+        meals: 'Breakfast & Lunch',
+        image: '/itineraries images/Itinirary image 1.JPG',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: false,
+  },
+  {
     id: '2-day',
     slug: '2-days-lake-manyara-ngorongoro',
     title: '2 Days / 1 Night – Lake Manyara & Ngorongoro Crater',
@@ -195,7 +765,7 @@ export const safariPackages: SafariPackage[] = [
       'Travel insurance, visa and passport fees',
       'Alcoholic and non-alcoholic beverages in lodges',
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: '5-day',
@@ -270,7 +840,7 @@ export const safariPackages: SafariPackage[] = [
       'Travel insurance, visa and passport fees',
       'Alcoholic and non-alcoholic beverages in lodges',
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: '8-day',
@@ -372,7 +942,7 @@ export const safariPackages: SafariPackage[] = [
       'Travel insurance, visa and passport fees',
       'Alcoholic and non-alcoholic beverages in lodges',
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: '10-day',
@@ -492,6 +1062,117 @@ export const safariPackages: SafariPackage[] = [
       'Travel insurance, visa and passport fees',
       'Alcoholic and non-alcoholic beverages in lodges',
     ],
-    featured: true,
+    featured: false,
   },
+  {
+    id: '9-day-bush-to-beach',
+    slug: '9-days-wildlife-safari-zanzibar-beach-holiday',
+    title: '9 Days / 8 Nights – Wildlife Safari & Zanzibar Beach Holiday',
+    shortTitle: 'Bush to Beach Safari & Zanzibar',
+    days: 9,
+    nights: 8,
+    destinations: ['Tarangire', 'Serengeti', 'Ngorongoro', 'Zanzibar'],
+    heroImage: '/safari packages images/selous-lion.jpg',
+    cardImage: '/safari packages images/selous-lion.jpg',
+    highlight: 'The ultimate Tanzania adventure — wildlife safari followed by Zanzibar beach bliss',
+    description:
+      'Experience the best of both worlds on this unforgettable 9-day journey. Begin with thrilling wildlife safaris in Tarangire, Serengeti, and Ngorongoro Crater, where Africa’s most iconic animals roam free. Then unwind on the pristine white-sand beaches of Zanzibar, exploring spice plantations, historic Stone Town, and the turquoise waters of the Indian Ocean.',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Kilimanjaro International Airport – Arusha',
+        description:
+          'Arrive at Kilimanjaro International Airport and transfer to your lodge in Arusha. Relax and prepare for your safari adventure.',
+        accommodation: 'Octagon Lodge',
+        meals: 'Dinner',
+        image: '/itineraries images/Itinirary image 2.JPG',
+      },
+      {
+        day: 2,
+        title: 'Arusha – Tarangire National Park',
+        description:
+          'Drive to Tarangire National Park. Explore elephant country, ancient baobabs, and diverse birdlife on afternoon and evening game drives.',
+        accommodation: 'Octagon Lodge',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 3.JPG',
+      },
+      {
+        day: 3,
+        title: 'Tarangire – Serengeti Central',
+        description:
+          'After a morning game drive in Tarangire, drive to Central Serengeti with picnic lunch and en-route game viewing.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 4.JPG',
+      },
+      {
+        day: 4,
+        title: 'Serengeti Central – Full Day',
+        description:
+          'A full day exploring Central Serengeti. Search for lions, leopards, cheetahs, elephants and the vast herds of wildebeest and zebra.',
+        accommodation: 'Serengeti KatiKati Tented Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 5.jpg',
+      },
+      {
+        day: 5,
+        title: 'Serengeti Central – Ngorongoro Crater',
+        description:
+          'Morning game drive in Serengeti, then drive to the Ngorongoro Crater rim for overnight with spectacular views.',
+        accommodation: 'Ngorongoro Kuhama Camp',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 6.jpg',
+      },
+      {
+        day: 6,
+        title: 'Ngorongoro Crater – Zanzibar',
+        description:
+          'Descend into Ngorongoro Crater for a morning game drive among the Big 5. After lunch, transfer to Arusha Airport for your flight to Zanzibar.',
+        accommodation: 'Zanzibar Beach Resort',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 7.jpg',
+      },
+      {
+        day: 7,
+        title: 'Zanzibar Beach',
+        description:
+          'Relax on the white sands of Zanzibar. Swim in the turquoise Indian Ocean, enjoy fresh seafood, and unwind at your beach resort.',
+        accommodation: 'Zanzibar Beach Resort',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 8.jpg',
+      },
+      {
+        day: 8,
+        title: 'Zanzibar Beach / Spice Tour / Stone Town',
+        description:
+          'Optional spice plantation tour and visit to historic Stone Town. Discover Zanzibar’s rich cultural heritage, aromatic spices, and bustling markets.',
+        accommodation: 'Zanzibar Beach Resort',
+        meals: 'Breakfast, Lunch & Dinner',
+        image: '/itineraries images/Itinirary image 9.jpg',
+      },
+      {
+        day: 9,
+        title: 'Zanzibar Airport – Departure',
+        description:
+          'Enjoy a final morning on the beach before transferring to Zanzibar Airport for your international departure.',
+        meals: 'Breakfast',
+        image: '/itineraries images/Itinirary image 11.jpg',
+      },
+    ],
+    includes: [
+      'Accommodation and full board meals',
+      '2.5 L mineral water per person/day',
+      'Transport & game drives in 4WD pop-up roof Land Cruiser',
+      'Professional English-speaking driver guide',
+      'Park entrance fees, concession fees & government taxes',
+    ],
+    excludes: [
+      'International and local airfare & flights',
+      'Personal items',
+      'Gratuities for safari guide and camp staff',
+      'Travel insurance, visa and passport fees',
+      'Alcoholic and non-alcoholic beverages in lodges',
+    ],
+    featured: false,
+  }
 ];

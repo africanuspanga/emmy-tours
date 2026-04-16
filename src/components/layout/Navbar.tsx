@@ -9,10 +9,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Globe, ChevronDown } from "lucide-react";
 
 const locales = [
-  { code: "en", label: "EN", name: "English" },
-  { code: "it", label: "IT", name: "Italiano" },
-  { code: "fr", label: "FR", name: "Français" },
-  { code: "de", label: "DE", name: "Deutsch" },
+  { code: "en", label: "EN", name: "English", flag: "🇬🇧" },
+  { code: "it", label: "IT", name: "Italiano", flag: "🇮🇹" },
+  { code: "fr", label: "FR", name: "Français", flag: "🇫🇷" },
+  { code: "de", label: "DE", name: "Deutsch", flag: "🇩🇪" },
 ];
 
 export default function Navbar() {
@@ -37,9 +37,9 @@ export default function Navbar() {
     { href: `/${locale}`, label: t("home") },
     { href: `/${locale}/about`, label: t("about") },
     { href: `/${locale}/packages`, label: t("packages") },
+    { href: `/${locale}/accommodation`, label: t("accommodation") },
     { href: `/${locale}/kilimanjaro`, label: t("kilimanjaro") },
     { href: `/${locale}/zanzibar`, label: t("zanzibar") },
-    { href: `/${locale}/gallery`, label: t("gallery") },
     { href: `/${locale}/contact`, label: t("contact") },
   ];
 
@@ -107,7 +107,8 @@ export default function Navbar() {
                 className="flex items-center gap-1.5 text-xs tracking-widest uppercase text-[#5a4c43]/70 hover:text-[#ae9231] transition-colors duration-300"
               >
                 <Globe size={14} />
-                {locale.toUpperCase()}
+                <span>{locales.find((l) => l.code === locale)?.flag}</span>
+                <span className="hidden sm:inline">{locale.toUpperCase()}</span>
                 <ChevronDown
                   size={12}
                   className={`transition-transform duration-200 ${langOpen ? "rotate-180" : ""}`}
@@ -133,6 +134,7 @@ export default function Navbar() {
                             : "text-[#5a4c43]/70 hover:text-[#ae9231] hover:bg-[#ae9231]/5"
                         }`}
                       >
+                        <span className="text-base">{loc.flag}</span>
                         <span className="font-semibold w-6">{loc.label}</span>
                         <span className="normal-case opacity-70">{loc.name}</span>
                       </Link>
@@ -204,12 +206,13 @@ export default function Navbar() {
                 <Link
                   key={loc.code}
                   href={getLocalizedPath(loc.code)}
-                  className={`text-sm tracking-widest uppercase px-3 py-1.5 border ${
+                  className={`text-sm tracking-widest uppercase px-3 py-1.5 border flex items-center gap-2 ${
                     locale === loc.code
                       ? "border-[#ae9231] text-[#ae9231]"
                       : "border-white/20 text-[#f5f0e8]/50"
                   }`}
                 >
+                  <span className="text-base leading-none">{loc.flag}</span>
                   {loc.label}
                 </Link>
               ))}

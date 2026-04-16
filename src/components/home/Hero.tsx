@@ -71,7 +71,7 @@ export default function Hero() {
             videoLoaded ? "opacity-100" : "opacity-0"
           }`}
         >
-          <source src="/hero-background.mp4" type="video/mp4" />
+          <source src="/New-Emmy-Tours-Hero.mp4" type="video/mp4" />
         </video>
 
         {/* Fallback gradient when video loads */}

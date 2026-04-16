@@ -1,0 +1,33 @@
+# Emmy Safaris & Tours
+
+Emmy Safaris & Tours is an award-winning, family-run tour operator based in Arusha, Tanzania. We specialise in tailor-made Tanzania safaris, Kilimanjaro climbing expeditions, and Zanzibar beach holidays.
+
+## Website
+https://emmysafaris.com
+
+## Contact
+- Address: AICC, Arusha, Tanzania
+- Phone: +255 769 683 062
+- WhatsApp: +255 784 305 008
+- Email: info@emmysafaris.com
+
+## What We Offer
+- **Safari Packages:** 2 to 10+ day itineraries covering Serengeti, Ngorongoro Crater, Tarangire, Lake Manyara and the Great Migration.
+- **Kilimanjaro Climbs:** Lemosho, Machame, Marangu, Rongai (5 & 6–7 day) and Umbwe routes with KINAPA-certified guides.
+- **Zanzibar Holidays:** Spice tours, Stone Town, Mnemba Atoll, Safari Blue, sunset dhow cruises and beach escapes.
+- **Accommodation:** Carefully selected lodges and luxury tented camps across Tanzania.
+
+## Key Pages
+- Home: https://emmysafaris.com/en
+- Safari Packages: https://emmysafaris.com/en/packages
+- Kilimanjaro Routes: https://emmysafaris.com/en/kilimanjaro
+- Zanzibar: https://emmysafaris.com/en/zanzibar
+- Accommodation: https://emmysafaris.com/en/accommodation
+- Gallery: https://emmysafaris.com/en/gallery
+- Contact: https://emmysafaris.com/en/contact
+
+## Languages
+English, Italian, French, German
+
+## Sitemap
+https://emmysafaris.com/sitemap.xml
